@@ -28,13 +28,13 @@
     [super viewDidLoad];
     [self setTitle:@"Pick a Category"];
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"letterscreen.contentimg.png"]];
-    
+
     // @TODO - Need to figure how to drop the back navigation link
-    
+
     // Load table header view from nib
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
     [headerNameLabel setText:@""];
-    
+
     UIButton *cameraButton = [UIButton buttonWithType: UIButtonTypeCustom];
     cameraButton.frame = CGRectMake(0, 140, 320, 260);
 //    [cameraButton setTitle:@"CAMERA" forState:UIControlStateNormal];
@@ -54,6 +54,31 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+-(void)winButtonHandler:(id)sender
+{
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"winning.contentbg.png"]];
+
+    UIButton *collageButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    collageButton.frame = CGRectMake(0, 0, 320, 500);
+    //    [collageButton setTitle:@"COLLAGE" forState:UIControlStateNormal];
+    [collageButton addTarget:self action:@selector(collageButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:collageButton];
+}
+
+-(void)collageButtonHandler:(id)sender
+{
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"collage.contentbg.png"]];
+
+    UIButton *nullButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    nullButton.frame = CGRectMake(0, 0, 320, 500);
+    //    [nullButton setTitle:@"NULL" forState:UIControlStateNormal];
+    [nullButton addTarget:self action:@selector(nullButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:nullButton];
+}
+
+-(void)nullButtonHandler:(id)sender
+{}
+
 #pragma mark - UIImagePickerDelegate
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -67,6 +92,15 @@
 
     GamePhotoViewController *viewController = [[GamePhotoViewController alloc] initWithImage:image];
     [self.navigationController pushViewController:viewController animated:NO];
+    
+    // Hacking setup for when we comem back to this screen
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"letterscreen2.contentbg.png"]];
+    
+    UIButton *winButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    winButton.frame = CGRectMake(0, 0, 320, 500);
+//    [winButton setTitle:@"WIN" forState:UIControlStateNormal];
+    [winButton addTarget:self action:@selector(winButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:winButton];
 }
 
 #pragma mark - UIActionSheetDelegate

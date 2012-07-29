@@ -45,6 +45,12 @@
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
     [headerNameLabel setText:@""];
 
+    UIButton *submitButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    submitButton.frame = CGRectMake(10, 345, 301, 55);
+//    [submitButton setTitle:@"SUBMIT" forState:UIControlStateNormal];
+    [submitButton addTarget:self action:@selector(submitButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:submitButton];
+
     UIImageView *photoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 70, 320, 150)];
     [photoImageView setBackgroundColor:[UIColor blackColor]];
     [photoImageView setImage:self.image];
@@ -112,6 +118,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(void)submitButtonHandler:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:NO];
 }
 
 @end
