@@ -14,7 +14,7 @@
 		0D01579415C4DC3700270974 /* sugfriends.contentbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D01579215C4DC3700270974 /* sugfriends.contentbg@2x.png */; };
 		0D01579715C4EA7700270974 /* categorysel.contentbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D01579515C4EA7700270974 /* categorysel.contentbg@2x.png */; };
 		0D01579A15C4EAD500270974 /* categorysel.contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D01579915C4EAD500270974 /* categorysel.contentbg.png */; };
-		0D01579D15C4F3DB00270974 /* GameLettersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D01579C15C4F3DB00270974 /* GameLettersViewController.m */; };
+		0D01579D15C4F3DB00270974 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D01579C15C4F3DB00270974 /* GameMainViewController.m */; };
 		0D01579F15C4F42600270974 /* categorysel.contentempty.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D01579E15C4F42600270974 /* categorysel.contentempty.png */; };
 		0D0157A115C4F42C00270974 /* categorysel.contentempty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0157A015C4F42C00270974 /* categorysel.contentempty@2x.png */; };
 		0D0157A415C4F9AC00270974 /* sugfriends.fullcontentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0157A215C4F9AC00270974 /* sugfriends.fullcontentbg.png */; };
@@ -53,8 +53,8 @@
 		0D01579215C4DC3700270974 /* sugfriends.contentbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sugfriends.contentbg@2x.png"; sourceTree = "<group>"; };
 		0D01579515C4EA7700270974 /* categorysel.contentbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "categorysel.contentbg@2x.png"; sourceTree = "<group>"; };
 		0D01579915C4EAD500270974 /* categorysel.contentbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = categorysel.contentbg.png; sourceTree = "<group>"; };
-		0D01579B15C4F3AA00270974 /* GameLettersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLettersViewController.h; sourceTree = "<group>"; };
-		0D01579C15C4F3DB00270974 /* GameLettersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLettersViewController.m; sourceTree = "<group>"; };
+		0D01579B15C4F3AA00270974 /* GameMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainViewController.h; sourceTree = "<group>"; };
+		0D01579C15C4F3DB00270974 /* GameMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainViewController.m; sourceTree = "<group>"; };
 		0D01579E15C4F42600270974 /* categorysel.contentempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = categorysel.contentempty.png; sourceTree = "<group>"; };
 		0D0157A015C4F42C00270974 /* categorysel.contentempty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "categorysel.contentempty@2x.png"; sourceTree = "<group>"; };
 		0D0157A215C4F9AC00270974 /* sugfriends.fullcontentbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sugfriends.fullcontentbg.png; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		D4DA79DF14D3345A0055F672 = {
 			isa = PBXGroup;
 			children = (
-				D4DA79F414D3345A0055F672 /* IntegratingFacebookTutorial */,
+				D4DA79F414D3345A0055F672 /* AlphaRace */,
 				D4DA79ED14D3345A0055F672 /* Frameworks */,
 				D4DA79EB14D3345A0055F672 /* Products */,
 			);
@@ -166,7 +166,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4DA79F414D3345A0055F672 /* IntegratingFacebookTutorial */ = {
+		D4DA79F414D3345A0055F672 /* AlphaRace */ = {
 			isa = PBXGroup;
 			children = (
 				D4DA79FD14D3345A0055F672 /* AppDelegate.h */,
@@ -174,8 +174,8 @@
 				0D01578415C4B10100270974 /* CategoryPickViewController.h */,
 				0D01578515C4B17300270974 /* CategoryPickViewController.m */,
 				D4DA7A1914D3353D0055F672 /* FBConnect.bundle */,
-				0D01579B15C4F3AA00270974 /* GameLettersViewController.h */,
-				0D01579C15C4F3DB00270974 /* GameLettersViewController.m */,
+				0D01579B15C4F3AA00270974 /* GameMainViewController.h */,
+				0D01579C15C4F3DB00270974 /* GameMainViewController.m */,
 				0D3D7A8815C478D800C34808 /* HomeViewController.h */,
 				0D3D7A8915C4797700C34808 /* HomeViewController.m */,
 				0D3D7A8A15C4797700C34808 /* HomeViewController.xib */,
@@ -189,6 +189,7 @@
 				D4DA7AA614D39BCE0055F672 /* UserDetailsViewController.m */,
 				D4DA7AA714D39BCE0055F672 /* UserDetailsViewController.xib */,
 			);
+			name = AlphaRace;
 			path = IntegratingFacebookTutorial;
 			sourceTree = "<group>";
 		};
@@ -286,7 +287,7 @@
 				D4DA7AA814D39BCE0055F672 /* UserDetailsViewController.m in Sources */,
 				0D3D7A8B15C4797700C34808 /* HomeViewController.m in Sources */,
 				0D01578615C4B17300270974 /* CategoryPickViewController.m in Sources */,
-				0D01579D15C4F3DB00270974 /* GameLettersViewController.m in Sources */,
+				0D01579D15C4F3DB00270974 /* GameMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "CategoryPickViewController.h"
-#import "GameLettersViewController.h"
+#import "GameMainViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation CategoryPickViewController
@@ -68,7 +68,7 @@
 
 -(void)tshirtButtonHandler:(UIButton*)sender
 {
-    [self.navigationController pushViewController:[[GameLettersViewController alloc] init] animated:NO];
+    [self.navigationController pushViewController:[[GameMainViewController alloc] init] animated:NO];
 }
 
 @end
