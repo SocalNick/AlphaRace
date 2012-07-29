@@ -76,7 +76,7 @@
         [geoCoder reverseGeocodeLocation:currentLocation completionHandler:^(NSArray *placemarks, NSError *error) {
             for (CLPlacemark *placemark in placemarks) {
                 UILabel *placemarkNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 282, 320, 44)];
-                [placemarkNameLabel setText:placemark.name];
+                [placemarkNameLabel setText:[placemark.addressDictionary objectForKey:@"Street"]];
                 [placemarkNameLabel setTag:1]; // We use the tag to set it later
                 [placemarkNameLabel setTextAlignment:UITextAlignmentLeft];
                 [placemarkNameLabel setFont:[UIFont boldSystemFontOfSize:14]];
@@ -85,8 +85,7 @@
 
                 UILabel *placemarkAddressLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 300, 320, 44)];
                 [placemarkAddressLabel setText:
-                    [NSString stringWithFormat:@"%@, %@, %@ %@",
-                        [placemark.addressDictionary objectForKey:@"Street"],
+                    [NSString stringWithFormat:@"%@, %@ %@",
                         [placemark.addressDictionary objectForKey:@"City"],
                         [placemark.addressDictionary objectForKey:@"State"],
                         [placemark.addressDictionary objectForKey:@"ZIP"]
