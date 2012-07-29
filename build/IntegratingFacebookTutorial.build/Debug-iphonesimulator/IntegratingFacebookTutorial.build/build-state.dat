@@ -1,0 +1,876 @@
+TIntegratingFacebookTutorial
+v7
+r3
+t365201441.503836
+cCheck dependencies
+cProcessInfoPlistFile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/Info.plist IntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist
+cProcessPCH /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch.pth IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/main.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/AppDelegate.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/LoginViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/UserDetailsViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/HomeViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCopyStringsFile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/en.lproj/InfoPlist.strings IntegratingFacebookTutorial/en.lproj/InfoPlist.strings
+cCpResource build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/FBConnect.bundle IntegratingFacebookTutorial/FBConnect.bundle
+cCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib
+cCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib
+cCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib
+cCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004CC122D0000000000005BF20
+t1287725776
+s376608
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC121E20000000000088320
+t1287725538
+s557856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.h
+c000000004CC1291A000000000000016E
+t1287727386
+s366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.1.1.3.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h
+c0000000050143E1200000000000000C4
+t1343503890
+s196
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m
+c00000000501445E00000000000000E36
+t1343505888
+s3638
+i"AppDelegate.h"
+i"Parse/Parse.h"
+i"LoginViewController.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/FBConnect.bundle
+c0000000050143E120000000000000066
+t1343503890
+s102
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h
+c00000000501441AD00000000000002AB
+t1343504813
+s683
+i<UIKit/UIKit.h>
+i"Parse/Parse.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m
+c00000000501450960000000000000996
+t1343508630
+s2454
+i"HomeViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib
+c00000000501441F7000000000000143A
+t1343504887
+s5178
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch
+c0000000050143E120000000000000165
+t1343503890
+s357
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h
+c00000000501443E5000000000000010D
+t1343505381
+s269
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m
+c00000000501445E200000000000007C3
+t1343505890
+s1987
+i"LoginViewController.h"
+i"HomeViewController.h"
+i"Parse/Parse.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib
+c0000000050143E1200000000000031AC
+t1343503890
+s12716
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib
+c0000000050143E1200000000000024F8
+t1343503890
+s9464
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h
+c0000000050143E1200000000000002E8
+t1343503890
+s744
+i<UIKit/UIKit.h>
+i"Parse/Parse.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m
+c00000000501445E40000000000001AA9
+t1343505892
+s6825
+i"UserDetailsViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib
+c0000000050143E12000000000000278B
+t1343503890
+s10123
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/en.lproj/InfoPlist.strings
+c0000000050143E12000000000000002D
+t1343503890
+s45
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m
+c0000000050143E120000000000000107
+t1343503890
+s263
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFACL.h
+c000000005011E8F20000000000001AA6
+t1343351026
+s6822
+i<Foundation/Foundation.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFAnonymousUtils.h
+c000000005011E8F2000000000000094B
+t1343351026
+s2379
+i<Foundation/Foundation.h>
+i"PFUser.h"
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFConstants.h
+c000000005011E8F20000000000001C6E
+t1343351026
+s7278
+i<Foundation/Foundation.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFFacebookUtils.h
+c000000005011E8F20000000000002CC4
+t1343351026
+s11460
+i<Foundation/Foundation.h>
+i"PF_Facebook.h"
+i"PFUser.h"
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFFile.h
+c000000005011E8F20000000000001AE2
+t1343351026
+s6882
+i<Foundation/Foundation.h>
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFGeoPoint.h
+c000000005011E8F200000000000007F0
+t1343351026
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFImageView.h
+c000000005011E8F20000000000000366
+t1343351026
+s870
+i<UIKit/UIKit.h>
+i"PFFile.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFInstallation.h
+c000000005011E8F20000000000000A86
+t1343351026
+s2694
+i<Foundation/Foundation.h>
+i"PFObject.h"
+i"PFQuery.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFLogInView.h
+c000000005011E8F2000000000000096C
+t1343351026
+s2412
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFLogInViewController.h
+c000000005011E8F20000000000000E55
+t1343351026
+s3669
+i<UIKit/UIKit.h>
+i"PFLogInView.h"
+i"PFSignUpViewController.h"
+i"PFUser.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFObject.h
+c000000005011E8F20000000000004894
+t1343351026
+s18580
+i<Foundation/Foundation.h>
+i"PFACL.h"
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFProduct.h
+c000000005011E8F200000000000005BC
+t1343351026
+s1468
+i"PFObject.h"
+i"PFFile.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFPurchase.h
+c000000005011E8F20000000000000A46
+t1343351026
+s2630
+i<Foundation/Foundation.h>
+i<StoreKit/StoreKit.h>
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFPush.h
+c000000005011E8F200000000000038B3
+t1343351026
+s14515
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i"PFConstants.h"
+i"PFQuery.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFQuery.h
+c000000005011E8F20000000000004ABF
+t1343351026
+s19135
+i<Foundation/Foundation.h>
+i"PFGeoPoint.h"
+i"PFObject.h"
+i"PFUser.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFQueryTableViewController.h
+c000000005011E8F200000000000017F3
+t1343351026
+s6131
+i<UIKit/UIKit.h>
+i"Parse.h"
+i"PF_EGORefreshTableHeaderView.h"
+i"PFTableViewCell.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFRelation.h
+c000000005011E8F20000000000000467
+t1343351026
+s1127
+i<Foundation/Foundation.h>
+i"PFObject.h"
+i"PFQuery.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFRole.h
+c000000005011E8F20000000000000AF7
+t1343351026
+s2807
+i<Foundation/Foundation.h>
+i"PFObject.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFSignUpView.h
+c000000005011E8F200000000000007E1
+t1343351026
+s2017
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFSignUpViewController.h
+c000000005011E8F20000000000000B96
+t1343351026
+s2966
+i<UIKit/UIKit.h>
+i"PFSignUpView.h"
+i"PFUser.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFTableViewCell.h
+c000000005011E8F20000000000000299
+t1343351026
+s665
+i<UIKit/UIKit.h>
+i"PFImageView.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFTwitterUtils.h
+c000000005011E8F20000000000001F94
+t1343351026
+s8084
+i<Foundation/Foundation.h>
+i"PF_Twitter.h"
+i"PFUser.h"
+i"PFConstants.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PFUser.h
+c000000005011E8F200000000000031B2
+t1343351026
+s12722
+i<Foundation/Foundation.h>
+i"PFObject.h"
+i"PF_Facebook.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+c000000005011E8F200000000000008B0
+t1343351026
+s2224
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_FBConnect.h
+c000000005011E8F200000000000002BB
+t1343351026
+s699
+i"PF_Facebook.h"
+i"PF_FBDialog.h"
+i"PF_FBLoginDialog.h"
+i"PF_FBRequest.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_FBDialog.h
+c000000005011E8F200000000000012E4
+t1343351026
+s4836
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_FBLoginDialog.h
+c000000005011E8F20000000000000586
+t1343351026
+s1414
+i"PF_FBDialog.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_FBRequest.h
+c000000005011E8F20000000000001050
+t1343351026
+s4176
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_Facebook.h
+c000000005011E8F20000000000001384
+t1343351026
+s4996
+i"PF_FBLoginDialog.h"
+i"PF_FBRequest.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/PF_Twitter.h
+c000000005011E8F200000000000005E1
+t1343351026
+s1505
+i<Foundation/Foundation.h>
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Headers/Parse.h
+c000000005011E8F20000000000000915
+t1343351026
+s2325
+i<Foundation/Foundation.h>
+i"PFACL.h"
+i"PFAnonymousUtils.h"
+i"PFConstants.h"
+i"PFFacebookUtils.h"
+i"PFFile.h"
+i"PFGeoPoint.h"
+i"PFImageView.h"
+i"PFLogInViewController.h"
+i"PFObject.h"
+i"PFProduct.h"
+i"PFPush.h"
+i"PFPurchase.h"
+i"PFQuery.h"
+i"PFQueryTableViewController.h"
+i"PFInstallation.h"
+i"PFRelation.h"
+i"PFRole.h"
+i"PFSignUpViewController.h"
+i"PFTableViewCell.h"
+i"PFTwitterUtils.h"
+i"PFUser.h"
+i"PF_FBConnect.h"
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/Parse.framework/Parse
+c000000005011E8F20000000000D83E34
+t1343351026
+s14171700
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app
+t1343508641
+s306
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app.dSYM
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/FBConnect.bundle
+t1343508635
+s102
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/HomeViewController.nib
+t1343508637
+s1231
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/Info.plist
+t1343508632
+s963
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/IntegratingFacebookTutorial
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/LoginViewController.nib
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/PkgInfo
+t1343508632
+s8
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/TableHeaderView.nib
+t1343508637
+s2244
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/UserDetailsViewController.nib
+t1343508636
+s1491
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/en.lproj/InfoPlist.strings
+t1343508637
+s42
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/HomeViewController.o
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/IntegratingFacebookTutorial.LinkFileList
+c0000000050145098000000000000039A
+t1343508632
+s922
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/LoginViewController.o
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/UserDetailsViewController.o
+t2
+s0
+
+N/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch.pth
+t1343508634
+s2776860
+
+NIntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist
+c0000000050143F1F0000000000000537
+t1343504159
+s1335
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies365201431#365201432#0(0"0(0#1#0"17252307968#0"0#
+
+CCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/AppDelegate.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201434.024979
+e365201435.141241
+r0
+xCompileC
+xbuild/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/AppDelegate.o
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:4:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:7:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o4 warnings and 2 errors generated.
+lSLF07#2@99"Compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m365201434#365201435#0(1606"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:4:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc objectIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:7:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object4 warnings and 2 errors generated.6(4@35"Unknown property attribute 'strong'365201435#117#141#2(7@116"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:4:365201435#0#117#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m365198688#4#0#4#0#0"0(13@130"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#12#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#321#184#2(7@116"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:4:365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m365198688#4#0#4#0#0"0(13@172"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#557#176#2(7@116"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m:4:365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m365198688#4#0#4#0#0"0(13@164"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#850#149#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#1108#192#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#1387#184#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(0#0#91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m4320133120#2581"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -include /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.m -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/AppDelegate.o1#
+
+CCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/HomeViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201435.141808
+e365201435.224138
+r0
+xCompileC
+xbuild/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/HomeViewController.o
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:5:78: error: cannot find protocol declaration for 'NSURLConnectionDelegate'
+o @interface HomeViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>
+o                                                                              ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableData *imageData;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableData *imageData;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:12:1: warning: incomplete implementation
+o @implementation HomeViewController
+o ^
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:18:1: note: method definition for 'logoutButtonTouchHandler:' not found
+o - (void)logoutButtonTouchHandler:(id)sender;
+o ^
+o13 warnings and 7 errors generated.
+lSLF07#2@106"Compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201435#365201435#0(5091"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:5:78: error: cannot find protocol declaration for 'NSURLConnectionDelegate' @interface HomeViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>                                                                              ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIView *headerView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIView *headerView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIImageView *headerImageView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSArray *rowTitleArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSArray *rowTitleArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableArray *rowDataArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableArray *rowDataArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableData *imageData;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableData *imageData; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:12:1: warning: incomplete implementation @implementation HomeViewController ^In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:18:1: note: method definition for 'logoutButtonTouchHandler:' not found - (void)logoutButtonTouchHandler:(id)sender; ^13 warnings and 7 errors generated.20(4@62"Cannot find protocol declaration for 'NSURLConnectionDelegate'365201435#124#175#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#0#124#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@164"Cannot find protocol declaration for 'NSURLConnectionDelegate' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#5#78#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#5#78#0#0#38"cannot find protocol declaration for *0(4@35"Unknown property attribute 'strong'365201435#482#148#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#715#191#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#969#183#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#1152#148#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#1391#191#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#1651#183#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#1834#149#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2078#192#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#2343#184#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#2527#149#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2756#192#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3006#184#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#3190#149#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#3425#192#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3681#184#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#3865#149#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@137"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#23#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#4096#192#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@179"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#4348#184#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@171"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(22@25"Incomplete implementation365201435#4532#140#1(13@59"Method definition for 'logoutButtonTouchHandler:' not found365201435#4835#171#2(7@123"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m:9:365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#9#0#9#0#0"0(13@161"Method definition for 'logoutButtonTouchHandler:' not found in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365201435#18446744073709551615#0#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#18#1#0#0#0"0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#18#1#0#0#33"method definition for * not found0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m365201430#12#1#0#0#25"incomplete implementation0(0#0#98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m4320133120#2595"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -include /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.m -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/HomeViewController.o1#
+
+CCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/LoginViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201434.025919
+e365201435.143019
+r0
+xCompileC
+xbuild/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/LoginViewController.o
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:4:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:5:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:5:78: error: cannot find protocol declaration for 'NSURLConnectionDelegate'
+o @interface HomeViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>
+o                                                                              ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableData *imageData;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableData *imageData;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o14 warnings and 8 errors generated.
+lSLF07#2@107"Compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m365201434#365201435#0(5415"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:4:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *activityIndicator; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc objectIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:5:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:5:78: error: cannot find protocol declaration for 'NSURLConnectionDelegate' @interface HomeViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>                                                                              ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIView *headerView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIView *headerView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:9:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIImageView *headerImageView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSArray *rowTitleArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSArray *rowTitleArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:13:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableArray *rowDataArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableArray *rowDataArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:14:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableData *imageData;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableData *imageData; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object14 warnings and 8 errors generated.22(4@35"Unknown property attribute 'strong'365201435#125#149#2(7@124"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:4:365201435#0#125#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m365198690#4#0#4#0#0"0(13@138"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365201435#18446744073709551615#0#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#23#0#0#0"0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#383#192#2(7@124"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:4:365201435#18446744073709551615#0#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m365198690#4#0#4#0#0"0(13@180"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365201435#18446744073709551615#0#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#0"0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#662#184#2(7@124"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m:4:365201435#18446744073709551615#0#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m365198690#4#0#4#0#0"0(13@172"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365201435#18446744073709551615#0#0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#0"0(6@99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.h365198181#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@62"Cannot find protocol declaration for 'NSURLConnectionDelegate'365201435#971#175#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#5#78#0#0#38"cannot find protocol declaration for *0(4@35"Unknown property attribute 'strong'365201435#1329#148#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#1562#191#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#1816#183#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#1999#148#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2238#191#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#2498#183#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#9#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#2681#149#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2925#192#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3190#184#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#10#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#3374#149#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#3603#192#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3853#184#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#13#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#4037#149#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#4272#192#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#4528#184#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#14#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#4712#149#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#4943#192#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#5195#184#0(6@98"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.h365197613#15#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(0#0#99"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m4320133120#2597"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -include /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.m -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/LoginViewController.o1#
+
+CCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/UserDetailsViewController.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201434.026892
+e365201435.143207
+r0
+xCompileC
+xbuild/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/UserDetailsViewController.o
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:7:85: error: cannot find protocol declaration for 'NSURLConnectionDelegate'
+o @interface UserDetailsViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>
+o                                                                                     ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIView *headerView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSArray *rowTitleArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableArray *rowDataArray;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:23: error: unknown property attribute 'strong'
+o @property (nonatomic, strong) NSMutableData *imageData;
+o                       ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (nonatomic, strong) NSMutableData *imageData;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o12 warnings and 7 errors generated.
+lSLF07#2@113"Compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365201434#365201435#0(4728"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:7:85: error: cannot find protocol declaration for 'NSURLConnectionDelegate' @interface UserDetailsViewController : UITableViewController <PF_FBRequestDelegate, NSURLConnectionDelegate>                                                                                     ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIView *headerView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIView *headerView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:10:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UILabel *headerNameLabel; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:11:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:23: error: unknown property attribute 'strong' @property (nonatomic, strong) IBOutlet UIImageView *headerImageView;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) IBOutlet UIImageView *headerImageView; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:12:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSArray *rowTitleArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSArray *rowTitleArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:15:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableArray *rowDataArray;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableArray *rowDataArray; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:16:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:23: error: unknown property attribute 'strong' @property (nonatomic, strong) NSMutableData *imageData;                       ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (nonatomic, strong) NSMutableData *imageData; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h:17:1: warning: default property attribute 'assign' not appropriate for non-gc object12 warnings and 7 errors generated.19(4@62"Cannot find protocol declaration for 'NSURLConnectionDelegate'365201435#131#182#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#0#131#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@171"Cannot find protocol declaration for 'NSURLConnectionDelegate' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#7#85#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#7#85#0#0#38"cannot find protocol declaration for *0(4@35"Unknown property attribute 'strong'365201435#510#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#751#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#1013#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#10#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#1204#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#1451#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#1719#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#11#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#1910#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2161#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#2433#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#12#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#2624#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#2860#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3117#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#15#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#3308#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#3550#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#3813#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#16#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'365201435#4004#156#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@144"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#23#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#23#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#4242#199#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@186"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#4501#191#2(7@130"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m:4:365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m365198692#4#0#4#0#0"0(13@178"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365201435#18446744073709551615#0#0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#1#0#0#0"0(6@105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.h365196690#17#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(0#0#105"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m4320133120#2609"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -include /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.m -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/UserDetailsViewController.o1#
+
+CCompileC build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/main.o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201434.023922
+e365201435.141018
+r0
+xCompileC
+xbuild/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/main.o
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:7:
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:11:5: error: unexpected '@' in program
+o     @autoreleasepool {
+o     ^
+o2 warnings and 2 errors generated.
+lSLF07#2@92"Compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m365201434#365201435#0(916"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:7:/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h:8:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:11:5: error: unexpected '@' in program     @autoreleasepool {     ^2 warnings and 2 errors generated.4(4@35"Unknown property attribute 'strong'365201435#110#141#2(7@109"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:7:365201435#0#110#0(6@84"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m365196690#7#0#7#0#0"0(13@130"Unknown property attribute 'strong' in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#12#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed365201435#314#184#2(7@109"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:7:365201435#18446744073709551615#0#0(6@84"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m365196690#7#0#7#0#0"0(13@172"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object365201435#550#176#2(7@109"In file included from /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m:7:365201435#18446744073709551615#0#0(6@84"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m365196690#7#0#7#0#0"0(13@164"Default property attribute 'assign' not appropriate for non-gc object in /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365201435#18446744073709551615#0#0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#0"0(6@91"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/AppDelegate.h365196690#8#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@25"Unexpected '@' in program365201435#726#124#0(6@84"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m365196690#11#5#0#0#25"unexpected '@' in program0(0#0#84"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m4320133120#2567"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -include /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/main.m -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/Objects-normal/i386/main.o1#
+
+CCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib
+s365201437.353436
+e365201438.051507
+r1
+xCompileXIB
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib
+lSLF07#2@61"CompileXIB IntegratingFacebookTutorial/HomeViewController.xib365201437#365201438#0(0"0(0#0#100"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib4320133120#667"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/HomeViewController.nib /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/HomeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib
+s365201435.225847
+e365201441.503791
+r0
+xCompileXIB
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib
+o2012-07-28 13:50:35.685 ibtool[3804:f07] -[__NSSetM unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-28 13:50:35.690 ibtool[3804:f07] -[__NSSetM unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+lSLF07#2@62"CompileXIB IntegratingFacebookTutorial/LoginViewController.xib365201435#365201441#0(366"2012-07-28 13:50:35.685 ibtool[3804:f07] -[__NSSetM unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-28 13:50:35.690 ibtool[3804:f07] -[__NSSetM unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  0(0#0#101"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib4320133120#669"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/LoginViewController.nib /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/LoginViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib
+s365201436.627906
+e365201437.474047
+r1
+xCompileXIB
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib
+lSLF07#2@58"CompileXIB IntegratingFacebookTutorial/TableHeaderView.xib365201436#365201437#0(0"0(0#0#97"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib4320133120#661"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/TableHeaderView.nib /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/TableHeaderView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib
+s365201435.226657
+e365201437.353272
+r1
+xCompileXIB
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib
+lSLF07#2@68"CompileXIB IntegratingFacebookTutorial/UserDetailsViewController.xib365201435#365201437#0(0"0(0#0#107"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib4320133120#681"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/UserDetailsViewController.nib /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/UserDetailsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyStringsFile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/en.lproj/InfoPlist.strings IntegratingFacebookTutorial/en.lproj/InfoPlist.strings
+s365201435.224273
+e365201437.876509
+r1
+xCopyStringsFile
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/en.lproj/InfoPlist.strings
+xIntegratingFacebookTutorial/en.lproj/InfoPlist.strings
+lSLF07#2@59"Copy IntegratingFacebookTutorial/en.lproj/InfoPlist.strings365201435#365201437#0(0"0(0#0#104"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/en.lproj/InfoPlist.strings4320133120#553"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary IntegratingFacebookTutorial/en.lproj/InfoPlist.strings --outdir /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/FBConnect.bundle IntegratingFacebookTutorial/FBConnect.bundle
+s365201435.225198
+e365201436.627776
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/IntegratingFacebookTutorial.app/FBConnect.bundle
+xIntegratingFacebookTutorial/FBConnect.bundle
+lSLF07#2@49"Copy IntegratingFacebookTutorial/FBConnect.bundle365201435#365201436#0(0"0(0#0#94"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/FBConnect.bundle4320133120#555"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/FBConnect.bundle /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app0#
+
+CGenerateDSYMFile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app.dSYM /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/IntegratingFacebookTutorial
+r0
+
+CLd /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/IntegratingFacebookTutorial normal i386
+r0
+
+CProcessInfoPlistFile /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/Info.plist IntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist
+s365201432.295698
+e365201432.463450
+r1
+xProcessInfoPlistFile
+x/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/Info.plist
+xIntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist
+lSLF07#2@74"Process IntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist365201432#365201432#0(0"0(0#0#116"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist17253060608#600"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility IntegratingFacebookTutorial/IntegratingFacebookTutorial-Info.plist -genpkginfo /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app/Info.plist0#
+
+CProcessPCH /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch.pth IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365201432.463634
+e365201434.023770
+r1
+xProcessPCH
+x/var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch.pth
+xIntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@77"Precompile IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch365201432#365201434#0(0"0(0#0#116"/Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch4320133120#2428"    cd /Users/ncalugar/Xcode/IntegratingFacebookTutorial    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-generated-files.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-own-target-headers.hmap -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-all-target-headers.hmap -iquote /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/IntegratingFacebookTutorial-project-headers.hmap -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator -F/Users/ncalugar/Xcode/IntegratingFacebookTutorial -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/include -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources/i386 -I/Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/IntegratingFacebookTutorial.build/Debug-iphonesimulator/IntegratingFacebookTutorial.build/DerivedSources -c /Users/ncalugar/Xcode/IntegratingFacebookTutorial/IntegratingFacebookTutorial/IntegratingFacebookTutorial-Prefix.pch -o /var/folders/cz/p0m3r53d757crps6b65__1w9lyr2hg/C/com.apple.Xcode.1743522319/SharedPrecompiledHeaders/IntegratingFacebookTutorial-Prefix-fpkpvleqxcivvsgumzvtesgtydcq/IntegratingFacebookTutorial-Prefix.pch.pth0#
+
+CTouch /Users/ncalugar/Xcode/IntegratingFacebookTutorial/build/Debug-iphonesimulator/IntegratingFacebookTutorial.app
+r0
+

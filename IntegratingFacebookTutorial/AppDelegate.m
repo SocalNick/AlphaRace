@@ -18,13 +18,13 @@
     // Fill in with your Parse credentials:
     // ****************************************************************************
     
-    [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
+    [Parse setApplicationId:@"4WWRE3vZn9EqWx5gsbw0V9VDUIrFAgrpBJYDqBme" clientKey:@"iTVEGjDcyMU1VEdEejlLGPcGWl6Jkutc7YHpjRjv"];
     
     // ****************************************************************************
     // Fill in with your Facebook application ID:
     // ****************************************************************************
     
-    [PFFacebookUtils initializeWithApplicationId:@"your_fb_application_id"];
+    [PFFacebookUtils initializeWithApplicationId:@"421899681184653"];
         
     // Override point for customization after application launch.
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
@@ -38,9 +38,9 @@
 // ****************************************************************************
 
 // Pre 4.2 support
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    return [PFFacebookUtils handleOpenURL:url];
-}
+//- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+//    return [PFFacebookUtils handleOpenURL:url];
+//}
 
 // For 4.2+ support
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {

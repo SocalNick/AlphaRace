@@ -2,7 +2,7 @@
 //  Copyright (c) 2012 Parse. All rights reserved.
 
 #import "LoginViewController.h"
-#import "UserDetailsViewController.h"
+#import "HomeViewController.h"
 #import "Parse/Parse.h"
 
 @implementation LoginViewController
@@ -14,11 +14,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self setTitle:@"Facebook Profile"];
+    
+    self.navigationController.navigationBarHidden = YES;
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"splashlogin.background.png"]];
+    [self setTitle:@""];
     
     // Check if user is cached and linked to Facebook, if so, bypass login    
     if ([PFUser currentUser] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]]) {
-        [self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:NO];
+        [self.navigationController pushViewController:[[HomeViewController alloc] init] animated:NO];
     }
 }
 
@@ -43,10 +46,11 @@
             }
         } else if (user.isNew) {
             NSLog(@"User with facebook signed up and logged in!");
-            [self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            [self.navigationController pushViewController:[[HomeViewController alloc] init] animated:YES];
+
         } else {
             NSLog(@"User with facebook logged in!");
-            [self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            [self.navigationController pushViewController:[[HomeViewController alloc] init] animated:YES];
         }
     }];
     

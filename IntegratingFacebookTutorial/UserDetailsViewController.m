@@ -17,9 +17,9 @@
     [self setTitle:@"Facebook Profile"];
     [[self tableView] setBackgroundColor:[UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1.0]];
     
-    // Add logout navigation bar button
-    UIBarButtonItem *logoutButton = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleBordered target:self action:@selector(logoutButtonTouchHandler:)];
-    [self.navigationItem setLeftBarButtonItem:logoutButton];
+    // Add back navigation bar button
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:self action:@selector(backButtonTouchHandler:)];
+    [self.navigationItem setLeftBarButtonItem:backButton];
     
     // Load table header view from nib
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
@@ -66,15 +66,15 @@
     
     
     // Download the user's facebook profile picture    
-    imageData = [[NSMutableData alloc] init]; // the data will be loaded in here
-    NSString *pictureURL = [userData objectForKey:@"picture"]; // get the url from the received data
-    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:pictureURL] 
-                                                              cachePolicy:NSURLRequestUseProtocolCachePolicy 
-                                                          timeoutInterval:2];
-    // Run network request asynchronously
-    NSURLConnection *urlConnection = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
-    if (!urlConnection)
-        NSLog(@"Failed to download picture");
+//    imageData = [[NSMutableData alloc] init]; // the data will be loaded in here
+//    NSString *pictureURL = [userData objectForKey:@"picture"]; // get the url from the received data
+//    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:pictureURL] 
+//                                                              cachePolicy:NSURLRequestUseProtocolCachePolicy 
+//                                                          timeoutInterval:2];
+//    // Run network request asynchronously
+//    NSURLConnection *urlConnection = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
+//    if (!urlConnection)
+//        NSLog(@"Failed to download picture");
 }
 
 /* Callback delegate method for an unsuccessful graph request */
@@ -109,18 +109,13 @@
     [headerImageView.layer setMasksToBounds:YES];
 }
 
+#pragma mark - back method
 
-#pragma mark - Logout method
-
-- (void)logoutButtonTouchHandler:(id)sender 
+- (void)backButtonTouchHandler:(id)sender
 {
-    // Logout user, this automatically clears the cache
-    [PFUser logOut];
-    
-    // Return to login view controller
-    [self.navigationController popToRootViewControllerAnimated:YES];    
+    // Return to home view controller
+    [self.navigationController popViewControllerAnimated:YES];
 }
-
 
 #pragma mark - Table view data source
 
