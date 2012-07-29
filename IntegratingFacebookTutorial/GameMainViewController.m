@@ -7,6 +7,7 @@
 //
 
 #import "GameMainViewController.h"
+#import "GamePhotoViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @implementation GameMainViewController
@@ -39,18 +40,6 @@
     [cameraButton setTitle:@"CAMERA" forState:UIControlStateNormal];
     [cameraButton addTarget:self action:@selector(cameraButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cameraButton];
-    
-    //    PFQuery *query = [PFQuery queryWithClassName:@"Category"];
-    //    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-    //        if (!error) {
-    //            // The find succeeded.
-    //            rowDataArray = objects;
-    //            [self.tableView reloadData];
-    //        } else {
-    //            // Log details of the failure
-    //            NSLog(@"Error: %@ %@", error, [error userInfo]);
-    //        }
-    //    }];
 }
 
 - (void)viewDidUnload
@@ -76,13 +65,8 @@
 
     UIImage *image = [info objectForKey:UIImagePickerControllerEditedImage];
 
-//    PAPEditPhotoViewController *viewController = [[PAPEditPhotoViewController alloc] initWithImage:image];
-//    [viewController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-//
-//    [self.navController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-//    [self.navController pushViewController:viewController animated:NO];
-//
-//    [self presentModalViewController:self.navController animated:YES];
+    GamePhotoViewController *viewController = [[GamePhotoViewController alloc] initWithImage:image];
+    [self.navigationController pushViewController:viewController animated:NO];
 }
 
 #pragma mark - UIActionSheetDelegate

@@ -22,6 +22,8 @@
 		0D3D7A8C15C4797700C34808 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3D7A8A15C4797700C34808 /* HomeViewController.xib */; };
 		0DB81C2315C5AC3B00B13053 /* splashlogin.background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2115C5AC3B00B13053 /* splashlogin.background.png */; };
 		0DB81C2415C5AC3B00B13053 /* splashlogin.background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2215C5AC3B00B13053 /* splashlogin.background@2x.png */; };
+		0DB81C2615C5B17700B13053 /* GamePhotoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */; };
+		0DB81C2815C5B1A000B13053 /* GamePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */; };
 		D4DA79EF14D3345A0055F672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79EE14D3345A0055F672 /* UIKit.framework */; };
 		D4DA79F114D3345A0055F672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79F014D3345A0055F672 /* Foundation.framework */; };
 		D4DA79F314D3345A0055F672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79F214D3345A0055F672 /* CoreGraphics.framework */; };
@@ -63,6 +65,8 @@
 		0D3D7A8A15C4797700C34808 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0DB81C2115C5AC3B00B13053 /* splashlogin.background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashlogin.background.png; sourceTree = "<group>"; };
 		0DB81C2215C5AC3B00B13053 /* splashlogin.background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashlogin.background@2x.png"; sourceTree = "<group>"; };
+		0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePhotoViewController.h; sourceTree = "<group>"; };
+		0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePhotoViewController.m; path = ../GamePhotoViewController.m; sourceTree = "<group>"; };
 		D4DA79EA14D3345A0055F672 /* AlphaRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DA79EE14D3345A0055F672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4DA79F014D3345A0055F672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -176,6 +180,8 @@
 				D4DA7A1914D3353D0055F672 /* FBConnect.bundle */,
 				0D01579B15C4F3AA00270974 /* GameMainViewController.h */,
 				0D01579C15C4F3DB00270974 /* GameMainViewController.m */,
+				0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */,
+				0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */,
 				0D3D7A8815C478D800C34808 /* HomeViewController.h */,
 				0D3D7A8915C4797700C34808 /* HomeViewController.m */,
 				0D3D7A8A15C4797700C34808 /* HomeViewController.xib */,
@@ -271,6 +277,7 @@
 				0D0157A715C4FD3900270974 /* asset-logo-square.png in Resources */,
 				0DB81C2315C5AC3B00B13053 /* splashlogin.background.png in Resources */,
 				0DB81C2415C5AC3B00B13053 /* splashlogin.background@2x.png in Resources */,
+				0DB81C2615C5B17700B13053 /* GamePhotoViewController.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 				0D3D7A8B15C4797700C34808 /* HomeViewController.m in Sources */,
 				0D01578615C4B17300270974 /* CategoryPickViewController.m in Sources */,
 				0D01579D15C4F3DB00270974 /* GameMainViewController.m in Sources */,
+				0DB81C2815C5B1A000B13053 /* GamePhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
