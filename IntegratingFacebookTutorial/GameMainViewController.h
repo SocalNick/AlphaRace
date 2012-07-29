@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Parse/Parse.h"
 
-@interface GameMainViewController : UIViewController <PF_FBRequestDelegate, NSURLConnectionDelegate, UIActionSheetDelegate>
+@interface GameMainViewController : UIViewController <PF_FBRequestDelegate, NSURLConnectionDelegate, UIActionSheetDelegate, UIImagePickerControllerDelegate>
 
 // UITableView header view properties
 @property (nonatomic, strong) IBOutlet UIView *headerView;

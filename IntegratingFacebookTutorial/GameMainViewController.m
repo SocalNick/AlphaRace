@@ -65,6 +65,36 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+#pragma mark - UIImagePickerDelegate
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    [self dismissModalViewControllerAnimated:NO];
+
+    UIImage *image = [info objectForKey:UIImagePickerControllerEditedImage];
+
+//    PAPEditPhotoViewController *viewController = [[PAPEditPhotoViewController alloc] initWithImage:image];
+//    [viewController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+//
+//    [self.navController setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+//    [self.navController pushViewController:viewController animated:NO];
+//
+//    [self presentModalViewController:self.navController animated:YES];
+}
+
+#pragma mark - UIActionSheetDelegate
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        [self shouldStartCameraController];
+    } else if (buttonIndex == 1) {
+        [self shouldStartPhotoLibraryPickerController];
+    }
+}
+
 -(void)cameraButtonHandler:(id)sender
 {
     BOOL cameraDeviceAvailable = [UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera];
