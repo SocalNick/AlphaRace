@@ -13,7 +13,6 @@
 
 @synthesize headerView, headerImageView, headerNameLabel, rowDataArray;
 
-@synthesize scrollView;
 @synthesize image;
 @synthesize fileUploadBackgroundTaskId;
 @synthesize photoPostBackgroundTaskId;
@@ -36,7 +35,7 @@
 {
     [super viewDidLoad];
     [self setTitle:@"Pick a Category"];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"categorysel.contentempty.png"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"confirmimg.contentbg.png"]];
 
     // @TODO - Need to figure how to drop the back navigation link
 
@@ -44,12 +43,7 @@
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
     [headerNameLabel setText:@""];
 
-    self.scrollView = [[UIScrollView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-    self.scrollView.delegate = self;
-    self.scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BackgroundLeather.png"]];
-    self.view = self.scrollView;
-
-    UIImageView *photoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20.0f, 42.0f, 280.0f, 280.0f)];
+    UIImageView *photoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 70, 320, 150)];
     [photoImageView setBackgroundColor:[UIColor blackColor]];
     [photoImageView setImage:self.image];
     [photoImageView setContentMode:UIViewContentModeScaleAspectFit];
@@ -61,7 +55,7 @@
     layer.shadowOpacity = 0.5f;
     layer.shouldRasterize = YES;
 
-    [self.scrollView addSubview:photoImageView];
+    [self.view addSubview:photoImageView];
 }
 
 - (void)viewDidUnload
