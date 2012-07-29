@@ -17,6 +17,8 @@
 @synthesize fileUploadBackgroundTaskId;
 @synthesize photoPostBackgroundTaskId;
 
+@synthesize locationManager;
+
 - (id)initWithImage:(UIImage *)aImage {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
@@ -35,7 +37,7 @@
 {
     [super viewDidLoad];
     [self setTitle:@"Pick a Category"];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"confirmimg.contentbg.png"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"confirmimg.nolocation.png"]];
 
     // @TODO - Need to figure how to drop the back navigation link
 
@@ -56,6 +58,49 @@
     layer.shouldRasterize = YES;
 
     [self.view addSubview:photoImageView];
+
+    locationManager = [[CLLocationManager alloc] init];
+
+    locationManager.delegate = self;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+
+    // Set a movement threshold for new events
+    locationManager.distanceFilter = kCLLocationAccuracyNearestTenMeters;
+
+    [locationManager startUpdatingLocation];
+
+    // Set initial location if available
+    CLLocation *currentLocation = locationManager.location;
+    if (currentLocation) {
+        CLGeocoder * geoCoder = [[CLGeocoder alloc] init];
+        [geoCoder reverseGeocodeLocation:currentLocation completionHandler:^(NSArray *placemarks, NSError *error) {
+            for (CLPlacemark *placemark in placemarks) {
+                UILabel *placemarkNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 282, 320, 44)];
+                [placemarkNameLabel setText:placemark.name];
+                [placemarkNameLabel setTag:1]; // We use the tag to set it later
+                [placemarkNameLabel setTextAlignment:UITextAlignmentLeft];
+                [placemarkNameLabel setFont:[UIFont boldSystemFontOfSize:14]];
+                [placemarkNameLabel setBackgroundColor:[UIColor clearColor]];
+                [self.view addSubview:placemarkNameLabel];
+
+                UILabel *placemarkAddressLabel = [[UILabel alloc] initWithFrame:CGRectMake(40, 300, 320, 44)];
+                [placemarkAddressLabel setText:
+                    [NSString stringWithFormat:@"%@, %@, %@ %@",
+                        [placemark.addressDictionary objectForKey:@"Street"],
+                        [placemark.addressDictionary objectForKey:@"City"],
+                        [placemark.addressDictionary objectForKey:@"State"],
+                        [placemark.addressDictionary objectForKey:@"ZIP"]
+                     ]
+                ];
+                [placemarkAddressLabel setTag:1]; // We use the tag to set it later
+                [placemarkAddressLabel setTextAlignment:UITextAlignmentLeft];
+                [placemarkAddressLabel setFont:[UIFont systemFontOfSize:12]];
+                placemarkAddressLabel.textColor = [UIColor grayColor];
+                [placemarkAddressLabel setBackgroundColor:[UIColor clearColor]];
+                [self.view addSubview:placemarkAddressLabel];
+            }
+        }];
+    }
 }
 
 - (void)viewDidUnload

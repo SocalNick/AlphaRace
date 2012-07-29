@@ -22,6 +22,8 @@
 		0D8B86BD15C5DA9200C237D8 /* letterscreen.contentimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B86B915C5DA9200C237D8 /* letterscreen.contentimg@2x.png */; };
 		0D8B86BE15C5DA9200C237D8 /* confirmimg.contentbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B86BA15C5DA9200C237D8 /* confirmimg.contentbg.png */; };
 		0D8B86BF15C5DA9200C237D8 /* confirmimg.contentbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B86BB15C5DA9200C237D8 /* confirmimg.contentbg@2x.png */; };
+		0D8B86C215C5E60000C237D8 /* confirmimg.nolocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B86C015C5E60000C237D8 /* confirmimg.nolocation.png */; };
+		0D8B86C315C5E60000C237D8 /* confirmimg.nolocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B86C115C5E60000C237D8 /* confirmimg.nolocation@2x.png */; };
 		0DB81C2615C5B17700B13053 /* GamePhotoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */; };
 		0DB81C2815C5B1A000B13053 /* GamePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */; };
 		0DB81C2E15C5CD0500B13053 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB81C2D15C5CD0500B13053 /* CoreLocation.framework */; };
@@ -66,6 +68,8 @@
 		0D8B86B915C5DA9200C237D8 /* letterscreen.contentimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "letterscreen.contentimg@2x.png"; sourceTree = "<group>"; };
 		0D8B86BA15C5DA9200C237D8 /* confirmimg.contentbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confirmimg.contentbg.png; sourceTree = "<group>"; };
 		0D8B86BB15C5DA9200C237D8 /* confirmimg.contentbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confirmimg.contentbg@2x.png"; sourceTree = "<group>"; };
+		0D8B86C015C5E60000C237D8 /* confirmimg.nolocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confirmimg.nolocation.png; sourceTree = "<group>"; };
+		0D8B86C115C5E60000C237D8 /* confirmimg.nolocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confirmimg.nolocation@2x.png"; sourceTree = "<group>"; };
 		0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePhotoViewController.h; sourceTree = "<group>"; };
 		0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePhotoViewController.m; path = ../GamePhotoViewController.m; sourceTree = "<group>"; };
 		0DB81C2D15C5CD0500B13053 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -123,6 +127,8 @@
 		0D01578B15C4D76100270974 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D8B86C015C5E60000C237D8 /* confirmimg.nolocation.png */,
+				0D8B86C115C5E60000C237D8 /* confirmimg.nolocation@2x.png */,
 				0D8B86AC15C5DA5700C237D8 /* splashlogin.background.png */,
 				0D8B86B015C5DA6500C237D8 /* sugfriends.contentbg.png */,
 				0D8B86B415C5DA8400C237D8 /* categorysel.contentbg.png */,
@@ -282,6 +288,8 @@
 				0D8B86BD15C5DA9200C237D8 /* letterscreen.contentimg@2x.png in Resources */,
 				0D8B86BE15C5DA9200C237D8 /* confirmimg.contentbg.png in Resources */,
 				0D8B86BF15C5DA9200C237D8 /* confirmimg.contentbg@2x.png in Resources */,
+				0D8B86C215C5E60000C237D8 /* confirmimg.nolocation.png in Resources */,
+				0D8B86C315C5E60000C237D8 /* confirmimg.nolocation@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
