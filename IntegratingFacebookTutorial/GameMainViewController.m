@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     [self setTitle:@"Pick a Category"];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"categorysel.contentempty.png"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"letterscreen.contentimg.png"]];
     
     // @TODO - Need to figure how to drop the back navigation link
     
@@ -35,9 +35,9 @@
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
     [headerNameLabel setText:@""];
     
-    UIButton *cameraButton = [UIButton buttonWithType: UIButtonTypeRoundedRect];
-    cameraButton.frame = CGRectMake(10, 105, 300, 100);
-    [cameraButton setTitle:@"CAMERA" forState:UIControlStateNormal];
+    UIButton *cameraButton = [UIButton buttonWithType: UIButtonTypeCustom];
+    cameraButton.frame = CGRectMake(0, 140, 320, 260);
+//    [cameraButton setTitle:@"CAMERA" forState:UIControlStateNormal];
     [cameraButton addTarget:self action:@selector(cameraButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cameraButton];
 }

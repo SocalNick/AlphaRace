@@ -24,6 +24,8 @@
 		0DB81C2415C5AC3B00B13053 /* splashlogin.background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2215C5AC3B00B13053 /* splashlogin.background@2x.png */; };
 		0DB81C2615C5B17700B13053 /* GamePhotoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */; };
 		0DB81C2815C5B1A000B13053 /* GamePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */; };
+		0DB81C2B15C5C28500B13053 /* letterscreen.contentimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2915C5C28500B13053 /* letterscreen.contentimg.png */; };
+		0DB81C2C15C5C28500B13053 /* letterscreen.contentimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DB81C2A15C5C28500B13053 /* letterscreen.contentimg@2x.png */; };
 		D4DA79EF14D3345A0055F672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79EE14D3345A0055F672 /* UIKit.framework */; };
 		D4DA79F114D3345A0055F672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79F014D3345A0055F672 /* Foundation.framework */; };
 		D4DA79F314D3345A0055F672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DA79F214D3345A0055F672 /* CoreGraphics.framework */; };
@@ -67,6 +69,8 @@
 		0DB81C2215C5AC3B00B13053 /* splashlogin.background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashlogin.background@2x.png"; sourceTree = "<group>"; };
 		0DB81C2515C5B17700B13053 /* GamePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePhotoViewController.h; sourceTree = "<group>"; };
 		0DB81C2715C5B1A000B13053 /* GamePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePhotoViewController.m; path = ../GamePhotoViewController.m; sourceTree = "<group>"; };
+		0DB81C2915C5C28500B13053 /* letterscreen.contentimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letterscreen.contentimg.png; sourceTree = "<group>"; };
+		0DB81C2A15C5C28500B13053 /* letterscreen.contentimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "letterscreen.contentimg@2x.png"; sourceTree = "<group>"; };
 		D4DA79EA14D3345A0055F672 /* AlphaRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DA79EE14D3345A0055F672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4DA79F014D3345A0055F672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +124,8 @@
 		0D01578B15C4D76100270974 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DB81C2915C5C28500B13053 /* letterscreen.contentimg.png */,
+				0DB81C2A15C5C28500B13053 /* letterscreen.contentimg@2x.png */,
 				0D0157A615C4FD3900270974 /* asset-logo-square.png */,
 				0DB81C2115C5AC3B00B13053 /* splashlogin.background.png */,
 				0DB81C2215C5AC3B00B13053 /* splashlogin.background@2x.png */,
@@ -278,6 +284,8 @@
 				0DB81C2315C5AC3B00B13053 /* splashlogin.background.png in Resources */,
 				0DB81C2415C5AC3B00B13053 /* splashlogin.background@2x.png in Resources */,
 				0DB81C2615C5B17700B13053 /* GamePhotoViewController.h in Resources */,
+				0DB81C2B15C5C28500B13053 /* letterscreen.contentimg.png in Resources */,
+				0DB81C2C15C5C28500B13053 /* letterscreen.contentimg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,7 @@
 
 @synthesize headerView, headerImageView, headerNameLabel, rowDataArray;
 
+@synthesize scrollView;
 @synthesize image;
 @synthesize fileUploadBackgroundTaskId;
 @synthesize photoPostBackgroundTaskId;
@@ -42,6 +43,25 @@
     // Load table header view from nib
     [[NSBundle mainBundle] loadNibNamed:@"TableHeaderView" owner:self options:nil];
     [headerNameLabel setText:@""];
+
+    self.scrollView = [[UIScrollView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    self.scrollView.delegate = self;
+    self.scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BackgroundLeather.png"]];
+    self.view = self.scrollView;
+
+    UIImageView *photoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20.0f, 42.0f, 280.0f, 280.0f)];
+    [photoImageView setBackgroundColor:[UIColor blackColor]];
+    [photoImageView setImage:self.image];
+    [photoImageView setContentMode:UIViewContentModeScaleAspectFit];
+
+    CALayer *layer = photoImageView.layer;
+    layer.masksToBounds = NO;
+    layer.shadowRadius = 3.0f;
+    layer.shadowOffset = CGSizeMake(0.0f, 2.0f);
+    layer.shadowOpacity = 0.5f;
+    layer.shouldRasterize = YES;
+
+    [self.scrollView addSubview:photoImageView];
 }
 
 - (void)viewDidUnload
